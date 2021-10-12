@@ -6,11 +6,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /wordpress/Hackathon-DFS23C-DWM15-Team1/
+RewriteBase /php/RUSH/Hackathon-DFS23C-DWM15-Team1/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/Hackathon-DFS23C-DWM15-Team1/index.php [L]
+RewriteRule . /php/RUSH/Hackathon-DFS23C-DWM15-Team1/index.php [L]
 </IfModule>
 
 # END WordPress
