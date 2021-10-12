@@ -3,6 +3,7 @@
 # Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
 # dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
 # Toute modification des directives situées entre ces marqueurs sera surchargée.
+# vodka
 <IfModule mod_rewrite.c>  
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
