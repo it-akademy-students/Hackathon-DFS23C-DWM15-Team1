@@ -1,11 +1,9 @@
 ---
-name: pushbi-daily
+name: push-bi-daily
+  
 on:
-  schedule:
-    - cron: '11 8,17 * * *'
-      on:
-        commit:
-          pull:
-            push:
-              branch: main
+  commit:
+    pull:
+      push:
+        branch: main
               
